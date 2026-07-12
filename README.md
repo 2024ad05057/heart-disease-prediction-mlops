@@ -15,8 +15,6 @@ The objective was not only to build a prediction model but also to deploy and mo
 ## Project Workflow
 
 ```
-                 Project Workflow
-
 +-------------------------------------------+
 |      UCI Heart Disease Dataset            |
 +-------------------------------------------+
@@ -146,7 +144,7 @@ Hyperparameter tuning was performed using GridSearchCV.
 | Logistic Regression | **88.52%** | **0.966** |
 | Random Forest | **86.89%** | **0.943** |
 
-The trained model is stored inside the **models** folder and is loaded by the FastAPI application during prediction.
+Logistic Regression achieved the highest evaluation accuracy (88.52%). A hyperparameter-tuned Random Forest model was also trained using GridSearchCV and selected as the deployment model. The trained pipeline was saved as models/best_model.pkl and served through the FastAPI application
 
 ---
 

@@ -174,6 +174,7 @@ def train_model(data_path=DATA_PATH):
             y_prob_rf
         )
 
+
         # =====================================================
         # Log Metrics
         # =====================================================
@@ -221,6 +222,7 @@ def train_model(data_path=DATA_PATH):
             "Random Forest": rf_metrics,
 
             "Best Model": "Random Forest",
+            #"Best Model": best_model_name,
 
             "Best Parameters": grid_search.best_params_
 
