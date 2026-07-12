@@ -363,7 +363,6 @@ The repository includes screenshots for:
 ## Future Improvements
 
 - Deploy on AWS or Azure Kubernetes Service.
-- Add MLflow Model Registry.
 - Implement model drift monitoring.
 
 ---
