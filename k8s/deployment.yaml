@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: heart-disease-api
+  namespace: heart-disease
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: heart-disease-api
+
+  template:
+    metadata:
+      labels:
+        app: heart-disease-api
+
+    spec:
+      containers:
+        - name: heart-disease-api
+
+          image: heart-disease-api:v1.3
+
+          imagePullPolicy: Never
+
+          ports:
+            - containerPort: 8000

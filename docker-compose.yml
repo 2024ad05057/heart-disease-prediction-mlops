@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  heart-api:
+    build: .
+    container_name: heart-disease-api
+
+    ports:
+      - "8000:8000"
+
+    restart: unless-stopped
