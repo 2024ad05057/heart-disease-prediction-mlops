@@ -189,7 +189,8 @@ Example response
 ```
 Prediction Example
 
-![Prediction](images/prediction.png)
+![predict.png](images/predict.png)
+![predict.png](images/predict_1.png)
 
 ---
 

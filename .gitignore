@@ -20,9 +20,13 @@ __pycache__/
 # MLflow
 mlruns/
 src/mlflow.db
+mlflow.db
+src/mlflow.db
 
 # Logs
 *.log
 
 # Environment
 .env
+
+.idea/
