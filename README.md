@@ -367,9 +367,7 @@ The repository includes screenshots for:
 
 ---
 
-## Author
 
-R V Mahendran
 
 ## Conclusion
 
@@ -399,3 +397,9 @@ kubectl port-forward svc/prometheus 9090:9090 -n heart-disease
 
 kubectl port-forward svc/grafana 3000:3000 -n heart-disease
 <img width="468" height="263" alt="image" src="https://github.com/user-attachments/assets/3cc15357-99b2-4158-a167-0680f8336fef" />
+
+
+## Author
+
+R V Mahendran
+
